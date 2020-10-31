@@ -13,11 +13,11 @@ header {
 }
 
 .navbar {
-    min-height: 8vh;
+    min-height: 10vh;
 }
 
 .main {
-    min-height: 92vh;
+    height: 90vh;
 }
 
 .col-md-7 {
@@ -131,8 +131,7 @@ header {
 
 @media screen and (max-width:576px) {
     .book-img {
-        width: 340px;
-        height: 500px;
+        width: 80%;
     }
 
     .pray {
@@ -161,8 +160,5 @@ header {
         width: 80%;
         margin: auto;
         margin-top: 10px;
-    }
-    .col-md-7 {
-        margin-top: 2%;
     }
 }
