@@ -161,4 +161,11 @@ header {
         margin: auto;
         margin-top: 10px;
     }
+    .navbar {
+        min-height: 10vh;
+    }
+
+    .main {
+        height: 90vh;
+    }
 }
