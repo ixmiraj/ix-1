@@ -13,11 +13,11 @@ header {
 }
 
 .navbar {
-    min-height: 10vh;
+    min-height: 8vh;
 }
 
 .main {
-    height: 90vh;
+    height: 92vh;
 }
 
 .col-md-7 {
