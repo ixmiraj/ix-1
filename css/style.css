@@ -49,12 +49,12 @@ header {
     background: white;
     padding: 70px 70px;
     font-family: 'Rubik',
-    sans-serif;
+        sans-serif;
     border-radius: 3px;
 }
 
 /* Rect Tag */
-.cover{
+.cover {
     width: 100%;
     height: 40vh;
     background: url('../img/book-cover.jpg');
@@ -66,14 +66,14 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     font-family: 'Patua One',
-    sans-serif;
+        sans-serif;
 }
 
 .content p {
     letter-spacing: 2px;
 }
 
-.numbers{
+.numbers {
     margin-top: -20vmin;
 }
 
@@ -90,12 +90,43 @@ header {
 
 .rect p {
     font-family: 'Patua One',
-    sans-serif;
+        sans-serif;
 }
 
 .rect h1 {
     font-family: 'Acme',
-    sans-serif;
+        sans-serif;
+}
+
+/* Pricing Section */
+
+.pricing-content h1 {
+    font-family: 'Lobster',
+        cursive;
+}
+
+.pricing-content p {
+    font-family: 'Rubic',
+        cursive;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.card-header {
+    font-family: 'Lobster',
+        cursive;
+}
+
+.card-body p {
+    font-family: 'Rubic',
+        cursive;
+}
+
+.card-body button {
+    font-family: 'Patua One',
+    cursive;
 }
 
 @media screen and (max-width:576px) {
@@ -104,7 +135,7 @@ header {
         height: 500px;
     }
 
-    .pray{
+    .pray {
         text-align: center;
     }
 
@@ -112,7 +143,7 @@ header {
         width: 90%;
     }
 
-    .panel{
+    .panel {
         position: relative;
         left: 0%;
         padding: 20px 20px;
@@ -123,6 +154,10 @@ header {
     }
 
     .rect {
+        margin-top: 10px;
+    }
+
+    .card {
         margin-top: 10px;
     }
 }
