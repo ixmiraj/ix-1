@@ -219,11 +219,12 @@ footer p {
 
 @media screen and (max-width:576px) {
     .navbar {
-        min-height: 8%;
+        min-height: 8vh;
     }
 
     .main {
-        height: 92%;
+        height: 92vh;
+        margin-bottom: 200px;
     }
 
     .book-img {
