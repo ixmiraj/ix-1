@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
 }
 
 .main {
-    height: 90vh;
+    height: 100vh;
 }
 
 .col-md-7 {
@@ -126,12 +127,93 @@ header {
 
 .card-body button {
     font-family: 'Patua One',
+        cursive;
+}
+
+/* Download */
+.download-content h1 {
+    font-family: 'Lobster',
+        cursive;
+}
+
+.download-content p {
+    font-family: 'Rubic',
+        cursive;
+}
+
+/* Client Says */
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -40px;
+    border: 5px solid #343a40;
+}
+
+.client h2 {
+    font-family: 'Patua One',
+        cursive;
+}
+
+.client div {
+    font-family: 'Acme',
+        cursive;
+}
+
+.client a {
+    color: #343a40;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Rubic',
+        cursive;
+}
+
+/* Footer */
+
+footer {
+    overflow-x: hidden;
+}
+
+footer h2{
+    font-family: 'Lobster',
     cursive;
+}
+
+footer p {
+    font-family: 'Acme',
+        cursive;
+}
+
+.copyright span {
+    color: #ff512f;
+}
+
+#btnGroupAddon2 {
+    border: none;
+}
+
+#btnGroupAddon2 i{
+    color: #ff512f;
+}
+
+.ip-y input{
+    font-family: 'Acme',
+    cursive;
+}
+
+.fa-icon i{
+    margin: 0px 5px;
+    color: #ff512f;
 }
 
 @media screen and (max-width:576px) {
     .book-img {
-        width: 80%;
+        width: 300px;
+        height: auto;
     }
 
     .pray {
@@ -161,11 +243,20 @@ header {
         margin: auto;
         margin-top: 10px;
     }
+
     .navbar {
         min-height: 10vh;
     }
 
     .main {
-        height: 90vh;
+        height: 75vh;
+    }
+
+    .download-img {
+        margin-left: 60px;
+    }
+
+    .cli-po {
+        margin-top: 20px;
     }
 }
